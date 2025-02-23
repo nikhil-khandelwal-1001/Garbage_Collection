@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garbage Collection</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+
+            <a href="#" class="logo">ZeroWaste Hub</a>
+
+            <nav class="navbar">               
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#service">Service</a>
+                    <a href="#complain">Complain</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#login">Log\Sign</a>                                
+            </nav>
+
+            <div><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            
+              <div class="home-content-detail">
+                <h1>Better Solutions For The Waste Around You!</h1>
+                <h2>Keep our Environment Healthy</h2>
+            
+                <div class="home-content-a">
+                  <a href="#about" class="home-content-about">Get Started</a>
+                  <a href="https://youtu.be/mQ93IcGCag4" class="watch"><span>Watch Video</span></a>
+                </div>
+              </div>
+              <div class="home-content-img">
+                <img src="recycling.jpeg" class="home-content-img-recycle" alt="">
+              </div>
+            
+          </div>
+      
+    </section>
+
+    <section class="about" id="home">
+        <div class="about-content">
+            <div class="heading">
+                <h2>
+                    About <span>Us</span>
+                </h2>
+            </div>
+            <div class="about-content-detail">
+                <div class="first">
+                    <p>                      
+                        The ‘WASTE MANAGEMENT SYSTEM’ is a web application aimed to provide a digital way 
+                         of complaining the concerns of general citizens to their relative municipalities. 
+                    </p>
+                    <ul>
+                         <li> Complaining about waste or garbage problems near their locality. </li>
+                         <li> See thier complain Report and check if the work is done! or not. </li>
+                         <li> people can take different ideas regarding recycling of waste through this website. </li>
+                    </ul>
+                </div>
+                <div class="second">
+                    <p>
+                      Complaining about the waste problem encountered everyday to municipality is hefty process and waste management
+                       aims to make this process easier. With a simple handheld device with access to internet, user can use this platform complain 
+                       their concerns to municipality . The automated system will redirect the complains .The municipality admins at the receiving side can acknowledge
+                        the reports which lets the users whether their complain is adddressed or not. 
+                    </p>
+                    <button class="btn-learn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="service-content">
+
+           
+            <div id="service-first">
+                <img src="house cleaning.jpg" alt="">
+                <h2>Residential Cleaning Services</h2>
+                
+            </div>
+            <div id="service-first">
+                <img src="commercial cleaning service.png" alt="">
+                <h2>Commercial Cleaning Services</h2>
+            </div>
+            <div id="service-first">
+                <img src="deep cleaning.jpg" alt="">
+                <h2>Deep Cleaning</h2>
+            </div>
+            <div id="service-first">
+                <img src="on demanding cleaning.svg" alt="">
+                <h2>On-Demand Cleaning Services</h2>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section class="complain" id="complain">
+        <div class="complaint-form">
+            <h2>Garbage Complaint Form</h2>
+            <form action="" method="post">
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+               </div>
+               <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+               </div>
+               <div>
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="Enter location of issue" required>
+               </div>
+               <div>
+                    <label for="issue">Complaint Type</label>
+                      <select id="issue" name="issue" required>
+                        <option value="">Select an issue</option>
+                        <option value="overflowing-bin">Overflowing Garbage Bin</option>
+                        <option value="no-collection">No Garbage Collection</option>
+                        <option value="hazardous-waste">Hazardous Waste</option>
+                        <option value="illegal-dumping">Illegal Dumping</option>
+                      </select>
+               </div>
+               <div>
+                   <label for="details">Complaint Details</label>
+                   <textarea id="details" name="details" rows="4" placeholder="Describe the issue in detail" required></textarea>
+               </div>
+                  <button type="submit">Submit Complaint</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h2>Contact <span>Us</span></h2>
+            <p>For inquiries or support regarding garbage collection, please fill out the form below:</p>
+            <form action="" method="post">
+                <div>
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              <div>
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+              <div>
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+              </div>
+              <div>
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+              </div>
+              <div>
+              <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+    </section>
+
+    <section class="login" id="login">
+        <div class="container">
+            <h2>Login or Sign Up</h2>
+            
+            <div class="toggle-btns">
+              <button id="login" onclick="showLogin()">Login</button>                      
+              <button id="signup" onclick="showSignUp()">Sign Up</button>                 
+            </div>
+        
+            <form id="loginForm" class="login-form" action="" method="post">
+                <div>
+                   <label for="login-email">Email Address</label>
+                   <input type="email" id="login-email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                   <label for="login-password">Password</label>
+                   <input type="password" id="login-password" name="password" placeholder="Enter your password" required>
+                </div>
+              
+                <div class="forgot-password">
+                  <a href="/forgot-password">Forgot Password?</a>
+                </div>
+          
+                <button type="submit">Login</button>
+            </form>
+        
+            <form id="signupForm" class="signup-form" action="" method="post">
+                <div>
+                   <label for="signup-name">Full Name</label>
+                   <input type="text" id="signup-name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div>
+                    <label for="signup-email">Email Address</label>
+                    <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" name="password" placeholder="Create a password" required>
+                </div>
+                <div>
+                    <label for="signup-confirm-password">Confirm Password</label>
+                    <input type="password" id="signup-confirm-password" name="confirm_password" placeholder="Confirm your password" required>
+                </div>
+                    <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+
+
+        <div class="footer-top">
+            <div class="container">
+            
+    
+              <div class="footer-contact">
+                
+                <p>
+                 
+                  <strong>Phone:</strong> +91 XXXXXXXXXX<br>
+                  <strong>Email:</strong> <a href="abc@gmail.com">abc@gmail.com<br></a>
+                </p>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li> <a href="#home">Home</a></li>
+                  <li> <a href="#about">About us</a></li>
+                  <li> <a href="#service">Service</a></li>
+                  <li> <a href="#complain">Complain</a></li>
+                  <li> <a href="#contact">Contact</a></li>
+                  <li> <a href="#login">Log/sign</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                  <li><a href="#">Residential Cleaning Services</a></li>
+                  <li><a href="#">Commercial Cleaning Services</a></li>
+                  <li><a href="#">Deep Cleaning</a></li>
+                  <li><a href="#">On-Demand Cleaning Services</a></li>
+                  
+                </ul>
+              </div>
+    
+                <div class="footer-links">
+                   <h4>Our Social Networks</h4>
+                   <p>Follow us in our social media to stay updated about community waste management.</p>
+   
+                   <div class="social-links">
+   
+                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                     <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                     <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>          
+                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+   
+                   </div>
+                </div>
+    
+            </div>
+          
+        </div>
+    
+        <div class="footer-bottom">
+          <div class="copyright">
+            &copy; Copyright <strong><span>ZWH</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+           Designed by <a href="">Team Legends</a> 
+          </div>
+        </div>
+      </footer>
+    <script src="index.js"></script>
+</body>
+</html>
